@@ -14,10 +14,11 @@ class _MyDrawerState extends State<MyDrawer> {
         padding: EdgeInsets.all(0),
         children: [
           UserAccountsDrawerHeader(
+            accountEmail: Text(''),
+            accountName: Text(''),
             decoration: BoxDecoration(
               color: bgColorSec,
             ),
-
           ),
         ],
       ),
